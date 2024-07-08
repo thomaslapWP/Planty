@@ -1,0 +1,30 @@
+/*
+Theme Name: Elementor Enfant
+Description: Theme enfant de hello-elementor. Vous pouvez maintenant effectuer vos modifications en toute sécurité.
+Author: WPMarmite
+Author URI: https://wpmarmite.com
+Template: Astra
+Version: 1.0
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+
+#menu-item-20 a { 
+  display: flex;
+  padding-right: 61px;
+  padding-left: 61px;
+  align-items: center;
+  height: 80px;
+  background-color: #dc9f96;
+  font-family: var(--font-syne);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#menu-item-20:hover a {
+  background-color: #c02e44;
+}
+
+
