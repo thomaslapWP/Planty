@@ -1,0 +1,1 @@
+import{l as g,r as s,b9 as u,h as r}from"./main-1.0.7.js";import{W as t}from"./main-1.0.7-9bcf9658.js";const m=o=>{const e=t(o);g.debug("storeTheme",e);const a=s.useMemo(()=>u(r.code),[e.language.code]);return g.debug("appLanguage",a),a};export{m as u};
