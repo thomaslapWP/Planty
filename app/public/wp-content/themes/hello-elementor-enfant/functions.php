@@ -1,10 +1,10 @@
 <?php
 
-add_action( 'wp_enqueue_scripts', 'wpchild_enqueue_styles' );
-function wpchild_enqueue_styles(){
-  wp_enqueue_style( 'wpm-elementor-style', get_template_directory_uri() . '/style.css' );
-}
 
+function mon_theme_enfant_enqueue_styles() {
+  wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css');
+}
+add_action('wp_enqueue_scripts', 'mon_theme_enfant_enqueue_styles');
 
 function add_admin_link_to_menu($items, $args) {
     if (is_user_logged_in() && ($args->theme_location === 'primary' || $args->menu_id === 'ast-hf-mobile-menu')) {

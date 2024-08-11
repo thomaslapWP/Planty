@@ -28,3 +28,284 @@ Version: 1.0
 }
 
 
+body {
+	font-family:"Syne",sans-serif
+}
+#menu-item-20 a { 
+  display: flex;
+  padding-right: 31px;
+  padding-left: 31px;
+	margin-left:10px;
+  align-items: center;
+  height: 60px;
+  background-color: #dc9f96;
+  font-family: var(--font-syne);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#menu-item-20:hover a {
+  background-color: #c02e44;
+	transition :  background-color 0.5s;
+}
+
+#menu-item-22{
+	margin-right:40px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+		align-items:center;
+    position: relative;
+
+}
+
+.image-row {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+.image-left,
+.image-right {
+    position: absolute;
+    z-index: 1;
+    top: 50px; 
+}
+
+.image-left {
+    right: 150px ;
+}
+
+.image-center {
+    position: relative;
+    z-index: 2;
+}
+
+.image-right {
+    left: 150px;
+}
+
+.command-image {
+	text-align:center;
+	bottom:50%;
+
+	
+}
+.image-center-gout {
+	position: absolute;
+	 z-index: 2;
+}
+
+.btn {
+	  background-color: #dc9f96;
+  font-family: var(--font-syne);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+	border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #c02e44;
+	transition :  background-color 0.5s;
+}
+
+.contact-Image-position {
+	position:absolute;
+	top:25%;
+	left:15%
+}
+
+.entry-bottom {
+	bottom:0;
+	left:0;
+	z-index:1;
+	position: absolute;
+	width:100%;
+}
+
+.entry-content[ast-blocks-layout] .alignfull {
+	margin-bottom: 0;
+}
+.image-leaves {
+	position:absolute;
+	bottom:0;
+	z-index:1;
+	right:30px;
+}
+#wpcf7-f319-p16-o1 form {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+
+}
+
+#wpcf7-f319-p16-o1 form input:not([type="submit"]),
+#wpcf7-f319-p16-o1 form textArea
+{
+	border:none;
+	resize:none;
+}
+#wpcf7-f319-p16-o1 form input[type="submit"] {
+	background-color:#d2776a;
+}
+
+#wpcf7-f319-p16-o1 form input[type="submit"]:hover {
+  background-color: #c02e44;
+	transition :  background-color 0.5s;
+}
+
+#wpcf7-f417-p18-o1 form {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+}
+
+#wpcf7-f417-p18-o1 .form-container {
+
+	   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+   place-items:center;
+
+}
+
+
+#wpcf7-f417-p18-o1 .form-column {
+	display:flex;
+  justify-content: center;
+  align-items: center;
+	flex-direction:column;
+  box-sizing: border-box;
+}
+
+#wpcf7-f417-p18-o1 .form-separator {
+
+  width: 1px;
+	height:80%;
+  background-color: #ffffff;
+  margin: 5px;
+
+}
+
+	.titleHomePage {
+		font-size:18px !important;
+	}
+
+
+@media (max-width: 768px) {
+  #wpcf7-f417-p18-o1 .form-container {
+		display:flex;
+    flex-direction: column;
+  }
+  #wpcf7-f417-p18-o1 .form-separator {
+    display: none;
+  }
+#wpcf7-f417-p18-o1 form input[type="submit"] {
+
+		width:100%;
+			margin-left:0px !important;
+  }
+	
+	.image-leaves {
+	display:none;
+}
+}
+
+
+#wpcf7-f417-p18-o1 form label {
+	color:#fff;
+}
+
+#wpcf7-f417-p18-o1 form input[type="submit"] {
+	background-color:#E0B9B4;
+	margin-left:60px
+}
+
+
+#wpcf7-f417-p18-o1 form input[type="submit"]:hover {
+  background-color: #c02e44;
+	transition :  background-color 0.5s;
+}
+@media screen and (max-width: 768px) {
+	.image-row {
+		justify-content:center;
+		align-items:center;
+	}
+    .image {
+      width:50%;
+    }
+	
+	.image-left {
+			left: 0px;
+	}
+
+	.image-center {
+			position: relative;
+			z-index: 2;
+		
+	}
+
+	.image-right {
+			left: 190px;
+	}
+	
+		.contact-Image-position {
+	position:absolute;
+	top:5%;
+	left:5%
+}
+	.ressponsive-col {
+		  justify-content: center;
+  align-items: center;
+		gap:20px;
+		display:flex;
+		flex-direction:column;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	
+      .image {
+      width:50%;
+				top:5px;
+    }
+	
+	.image-left {
+			left: 0px;
+	}
+
+	.image-center {
+			position: relative;
+			z-index: 2;
+		
+	}
+
+	.image-right {
+			left: 135px;
+	}
+	
+	.contact-Image-position {
+	position:absolute;
+	top:5%;
+	left:5%
+}
+.wp-block-heading {
+	font-size:20px !important;
+}
+
+
+}
+
+
